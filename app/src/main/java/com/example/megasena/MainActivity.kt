@@ -84,8 +84,7 @@ class MainActivity : AppCompatActivity() {
                    numbers.add(number + 1)
 
                    if (numbers.size == qtd){
-                       break
-                   }
+                       break }
                }
 
                textResult.text = numbers.joinToString(" - ")
